@@ -1,0 +1,46 @@
+.home_section{
+    height: 80vh;
+    width: 100%;
+}
+.home{
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+.image_section{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.image_section>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.home_content{
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.home_content >h1{
+    text-transform: uppercase;
+}
+button{
+    /* background: #eee6dd; */
+    border: none;
+    border-radius: 1rem;
+    /* color: #231f20; */
+    background-color: #501003;
+    color: white;
+    padding: 0.5rem;
+}
+button>svg{
+    height: 100%;
+    justify-content: center;
+}
+

@@ -1,0 +1,56 @@
+.about_company_section{
+    margin-top: 4rem;
+    height: 50rem;
+    width: 100%;
+    position: relative;
+}
+.about_company_section .about_company{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+}
+.compat_one{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.pic_container{
+    height: 100%;
+}
+.pic_container>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.compat_two_container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.lines{
+    height: 10rem;
+    width: 100%;
+    background-color:darkcyan;
+}
+.compat_two_container .content_container{
+    z-index: 2;
+    position: absolute;
+    margin-left: 5rem;
+    margin-top: 8rem;
+}
+.content_container .content{
+    padding: 1rem;
+    background-color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content_container .points_check{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
