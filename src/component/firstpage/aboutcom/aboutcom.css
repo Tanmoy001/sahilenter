@@ -1,14 +1,16 @@
 .about_company_section{
-    margin-top: 4rem;
+    margin-top: 2rem;
     height: 50rem;
     width: 100%;
     position: relative;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 .about_company_section .about_company{
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 5%;
+    padding: 3%;
 }
 .compat_one{
     height: 100%;
@@ -32,7 +34,7 @@
 .lines{
     height: 10rem;
     width: 100%;
-    background-color:darkcyan;
+    background-color:#AAB59A;
 }
 .compat_two_container .content_container{
     z-index: 2;

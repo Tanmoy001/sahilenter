@@ -1,0 +1,28 @@
+.footer_section{
+    height: 100%;
+    width: 100%;
+    background-color: darkcyan;
+    /* opacity: 0.3; */
+    color: white;
+}
+.footer_section footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #d5c09b;
+    opacity: 1;
+    justify-content: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.footer_content{
+    font-family: 'Noto Serif SC' !important;
+}
+.footer_content>h3{
+    color:  #501003;
+}
+ul> li{
+        list-style-type: none;
+      
+}

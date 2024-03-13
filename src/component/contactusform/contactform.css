@@ -1,0 +1,52 @@
+.contactus_form_section{
+    height: 100%;
+    background-color: #d5c09b;;
+    
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.formheading{
+    margin: 1.5rem;
+}
+.formheading > h6{
+    color: blue;
+    font-family: 'Noto Serif SC' !important;
+}
+.formheading > h5{
+    font-family: 'Noto Serif SC' !important;
+}
+.contactusform{
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactusform form{
+    gap: 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.inputBox input{
+    border: none;
+    color: #000;
+    border-bottom: 2px solid black;
+    background: transparent;
+    box-shadow: none;
+    outline: none;
+    width: 20rem;
+}
+::placeholder {
+    color: #fff; /* Change the color to your desired color */
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+
+

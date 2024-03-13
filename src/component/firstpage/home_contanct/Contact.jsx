@@ -1,5 +1,6 @@
 import React from 'react'
 import './contacts.css';
+import Contactform from '../../contactusform/Contactform';
 function Contact() {
     return (
         <div className='home_contactus_section'>
@@ -23,7 +24,7 @@ function Contact() {
                                 <div className='email'>Email: info@bestengineering.</div>
                                 </div>
                                 <div className='Contact_section'>
-                                    <p>sadkfhasdjkdfhasdbgfkjasldhfddlk</p>
+                                    <Contactform/>
                                  </div>
                             </div>
                             

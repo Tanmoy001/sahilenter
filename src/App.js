@@ -3,6 +3,7 @@ import './App.css';
 import Navbarpage from './component/navbar/Navbarpage';
 import { BrowserRouter, Routes,Route} from "react-router-dom";
 import Firstpage from './component/firstpage/Firstpage';
+import Footer from './component/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
   
    <Route path="/" element={<Firstpage />}/> 
     </Routes>
+    <Footer/>
     </BrowserRouter>
     </>
   );
