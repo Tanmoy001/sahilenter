@@ -53,6 +53,48 @@
 }
 .content_container .points_check{
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+    flex-direction: column;
+    
 }
+
+/* .content >p{
+    animation-duration: 2s;
+  animation-name: rotating-text-2;
+     opacity: 1; 
+}
+
+  @keyframes rotating-text-2 {
+    0% {
+        opacity: 0; 
+    }
+    50% {
+        opacity: 0.5;
+      }
+    100% {
+      opacity: 1;
+    }
+  } */
+  .titleanimatet{
+
+  animation-duration: 2s;
+    overflow: hidden;
+  animation-name: animationT;
+    /* opacity: 0; */
+}
+@keyframes animationT {
+    0% {
+      transform: translateX(-30%);
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  .about{
+    opacity:  0;
+    visibility: hidden;
+  }
+  .activeabout{
+    opacity: 1;
+    visibility: visible;
+  }

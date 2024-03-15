@@ -10,6 +10,9 @@
     position: relative;
     display: flex;
 }
+.Content_section h4{
+    color: blue;
+}
 .Content_section{
     height: 100%;
     margin-left: 10rem;
@@ -48,4 +51,21 @@
     text-align: center;
     align-items: center;
     margin-bottom: 1rem;
+}
+.points_check button{
+    width: 9rem ;
+}
+@media (max-width: 1284px) {
+    .Content_section {
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 964px) {
+    .reasons_content {
+        border-radius: 0.5rem;
+        height: 14rem;
+        width: 14rem;
+    }
 }
