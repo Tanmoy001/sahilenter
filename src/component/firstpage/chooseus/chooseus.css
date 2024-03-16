@@ -52,9 +52,7 @@
     align-items: center;
     margin-bottom: 1rem;
 }
-.points_check button{
-    width: 9rem ;
-}
+
 @media (max-width: 1284px) {
     .Content_section {
         height: 100%;

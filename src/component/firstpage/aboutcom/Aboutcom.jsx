@@ -36,13 +36,15 @@ function Aboutcom() {
                                         At ESSDEE PROJECTS, our mission is to deliver excellence in every project we undertake. We are committed to providing high-quality, cost-effective, and timely solutions that exceed our clients’ expectations.</p>
                                 </div>
                                 <br />
+                                <div className='our_values'>
                                 <h5>Our Values</h5>
                                 <div className='points_check'>
                                     <p><FaCheckCircle />&nbsp;Good Straching</p>
                                     <p><FaCheckCircle />&nbsp;Good Straching</p>
                                     <p><FaCheckCircle />&nbsp;Good Straching</p>
                                     <p><FaCheckCircle />&nbsp;Good Straching</p>
-                                    <button>Read more</button>
+                                    <button className='service_button'>Read more</button>
+                                </div>
                                 </div>
                             </div>
                         </div>
