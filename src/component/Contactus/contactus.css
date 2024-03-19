@@ -1,0 +1,87 @@
+.contact-us-container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.contact_us_background{
+    height: 55vh;
+    background-image: url("./pic.webp");
+    background-position: center;
+    overflow: hidden;
+}
+.contact_us_text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.4));
+}
+.contact_us_text >h4{
+    font-size: 42px;
+    color: wheat;
+    font-family: fantasy;
+    animation-duration: 2s;
+    animation-name: rotating_contact_title;
+    /* opacity: 0; */
+}
+@keyframes rotating_contact_title {
+    0% {
+      transform: translateY(-30%);
+    }
+    50% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+.contact_us_text>p{
+    color: white;
+    font-family: 'Noto Serif SC' !important;
+}
+.contact-us-section >.info_container{
+    overflow: visible;
+}
+.personal_contact_section{
+ 
+    /* height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem; */
+    display: flex;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.pcontact_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    height: 13rem;
+    width: 33.333%;
+    margin: 1rem;
+    border: 1px solid  #f4a261;
+}
+
+@media screen and (max-width:768px){
+    .personal_contact_section{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .pcontact_section{
+    width: 80%;
+    }
+}

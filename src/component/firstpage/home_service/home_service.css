@@ -57,7 +57,8 @@
 }
 
 .services_sections:hover {
-    animation: rotateTwice 1s ease; /* Run the animation for 2 seconds */
+    cursor: grab;
+    animation: rotateTwice 2s ease; /* Run the animation for 2 seconds */
 }
 @keyframes rotateTwice {
     0% { transform: rotateY(0deg); }
@@ -115,5 +116,33 @@
     
     100% {
       opacity: 1;
+    }
+  }
+  @media  screen  and  (max-width : 820px){
+    .servics_contents {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: none;
+    }
+    .home_service .colors {
+        margin-top: 60rem;
+        opacity: 0.3;
+    }
+    .servics_contents .services_sections h4, .servics_contents .services_sections p {
+        color: black;
+        font-family: 'Noto Serif SC';
+    }
+  }
+  @media  screen  and  (max-width : 553px){
+    .servics_contents {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: none;
+    }
+    .home_service .colors {
+        margin-top: 50rem;
+        opacity: 0.3;
+    }
+    .servics_contents .services_sections h4, .servics_contents .services_sections p {
+        color: black;
+        font-family: 'Noto Serif SC';
     }
   }

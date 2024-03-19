@@ -40,13 +40,13 @@ function Navbarpage({isAuthenticated}) {
         <li className="nav-item"><NavLink className="nav-link" to="/" exact="true" activeclassname="active-link">
   Home
 </NavLink></li>
-         <li className="nav-item"><NavLink className="nav-link" to="/school" activeclassname="active-link">
+         <li className="nav-item"><NavLink className="nav-link" to="/service" activeclassname="active-link">
   Service
 </NavLink></li> 
-<li className="nav-item"><NavLink className="nav-link" to="/office" activeclassname="active-link">
+<li className="nav-item"><NavLink className="nav-link" to="/aboutus" activeclassname="active-link">
   About Us
 </NavLink></li> 
-        <li className="nav-item"><NavLink className="nav-link" to="/about" activeclassname="active-link">
+        <li className="nav-item"><NavLink className="nav-link" to="/contactus" activeclassname="active-link">
         Contact Us
 </NavLink></li>
          

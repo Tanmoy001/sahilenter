@@ -19,6 +19,7 @@
 .contactusform{
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1.5rem;
 }
 .contactusform form{
     gap: 2rem;

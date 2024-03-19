@@ -203,3 +203,8 @@
   font-size: 15px;
 }
 }
+@media only screen and (max-width: 389px) {
+  .about_company_section {
+    margin-bottom: 1.5rem;
+  }
+}
