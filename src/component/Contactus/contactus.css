@@ -72,6 +72,8 @@
     width: 33.333%;
     margin: 1rem;
     border: 1px solid  #f4a261;
+    box-shadow: inset 15px 15px 20px rgba(0,0,0,.05), 10px 10px 16px rgba(0,0,0,.05);
+    
 }
 
 @media screen and (max-width:768px){
