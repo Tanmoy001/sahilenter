@@ -41,7 +41,7 @@
     font-family: 'Noto Serif SC' !important;
 }
 .about_content{
-  height: 100%;
+  height: 41vh;
   /* width: 100%; */
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -115,7 +115,7 @@ justify-content: center;
   /* height: 15rem; */
   width:  20rem;
   object-fit: fill;
-  background-color: white;
+  background-color: wheat;
   clip-path: polygon(16% 0, 100% 0, 83% 100%, 0 100%);
 }
 .founder_img >img{
@@ -171,4 +171,46 @@ justify-content: center;
 }
 .goal_card >h6{
   color: blue;
+}
+@media screen and (max-width:780px){
+  .founder_img{
+    margin-left: -5rem;
+  }
+  .about_founder {
+    height: 16rem;
+  }
+  .goal_sections {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: none;
+    gap: 1rem;
+}
+}
+@media screen and (max-width:650px){
+  .founder_img{
+    margin-left: -7rem;
+    clip-path: polygon(0% 0, 100% 0, 83% 100%, 0 100%);
+  }
+  .about_founder {
+    height: 16rem;
+  }
+  .and {
+    margin-top: 16px;
+    font-size: 6rem;
+}
+.ceo {
+  font-size: 1.5rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.founder{
+  z-index: 11;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+}
+
+@media screen and (max-width:450px){
+  .founder_img {
+    /* height: 15rem; */
+    width: 14rem;
+  }
 }

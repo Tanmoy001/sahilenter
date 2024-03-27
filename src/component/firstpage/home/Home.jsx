@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import pic from './pic.webp'
+import pic from './cover_pic.jpg'
 import './home.css'
 import { IoCall } from "react-icons/io5";
 function Home() {
