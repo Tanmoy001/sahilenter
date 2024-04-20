@@ -54,8 +54,8 @@ function Navbarpage({isAuthenticated}) {
         </Nav>
         <div className="form-check form-switch">
     <div className='iconfunc'>
-    <Link className="nav-link" to="/search"  style={{justifyContent:'center',display:'flex'}}><FaWhatsapp  style={{height:'35px',width:'1.5rem'}}/></Link>
-    <Link className="nav-link" to="/card" style={{justifyContent:'center',display:'flex'}}><FaFacebookF  style={{height:'2vmax',width:'1.5rem'}}/></Link>
+    <Link className="nav-link"  style={{justifyContent:'center',display:'flex'}}><FaWhatsapp  style={{height:'35px',width:'1.5rem'}}/></Link>
+    <Link className="nav-link" style={{justifyContent:'center',display:'flex'}}><FaFacebookF  style={{height:'2vmax',width:'1.5rem'}}/></Link>
     </div>
 </div>
       </Navbar.Collapse>
