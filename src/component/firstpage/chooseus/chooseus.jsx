@@ -2,7 +2,7 @@ import React from 'react'
 import pic from './bkg.png';
 import'./chooseus.css';
 import { FaAward } from "react-icons/fa";
-function Chooseus() {
+function ChooseUs() {
   return (
     <div className='Cooseus_section'>
       <div className='cooseus_container'>
@@ -49,4 +49,4 @@ function Chooseus() {
   )
 }
 
-export default Chooseus
+export default ChooseUs

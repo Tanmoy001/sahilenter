@@ -1,18 +1,18 @@
 import React from 'react'
 import Home from './home/Home'
 import  Aboutcom from './aboutcom/Aboutcom';
-import Home_service from './home_service/Home_service';
-import Chooseus from './chooseus/Chooseus';
+import HomeService from './home_service/HomeService';
 import Contact from './home_contanct/Contact';
+import ChooseUs from './chooseus/ChooseUs';
 function Firstpage() {
   return (
-    <div>
+    <>
       <Home/>
       <Aboutcom/>
-      <Home_service/>
-      <Chooseus/>
+      <HomeService/>
+      <ChooseUs/>
       <Contact/>
-    </div>
+    </>
   )
 }
 

@@ -2,7 +2,7 @@ import React, { useEffect,useState } from 'react';
 import pic from './emmmb.jpg';
 import './home_service.css';
 import { useInView } from 'react-intersection-observer';
-function Home_service() {
+function HomeService() {
     const [para, setPara] = useState()
     const { ref, inView } = useInView();
     useEffect(() => {
@@ -50,4 +50,4 @@ function Home_service() {
     )
 }
 
-export default Home_service
+export default HomeService
