@@ -32,7 +32,7 @@ function Navbarpage({isAuthenticated}) {
      <nav className={`navbar Navbar_first ${scrolling ? 'scrolling' : ''}`} style={{ position:"fixed",width:"100vmax",zIndex:"30"}}> 
     <Navbar className='navbar Navbar_sec'  collapseOnSelect expand="lg" bg="blue" variant="dark">
     <Container>
-      <Navbar.Brand>Sahil Enterprise</Navbar.Brand>
+      <Navbar.Brand>Sahil EMBROIDERY</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
