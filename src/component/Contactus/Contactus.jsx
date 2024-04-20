@@ -61,13 +61,8 @@ function Contactus() {
           <iframe
         title="Google Map"
         className="gmap_iframe"
-        frameBorder="0"
-        scrolling="no"
-        marginHeight="0"
-        marginWidth="0"
+        style={{ border: 0, width: '100%', height: '100%', position: 'absolute' }}
         src="https://maps.google.com/maps?width=850&amp;height=600&amp;hl=en&amp;q=sahil%20embro&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-        width="850"
-        height="600"
         allowFullScreen=""
       ></iframe>
           </div>
