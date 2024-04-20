@@ -56,10 +56,20 @@ function Contactus() {
           </div>
         </div>
 
-        <div class="mapouter">
-          <div class="gmap_canvas">
-            <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=850&amp;height=600&amp;hl=en&amp;q=sahil embro&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-
+        <div className="mapouter">
+          <div className="gmap_canvas">
+          <iframe
+        title="Google Map"
+        className="gmap_iframe"
+        frameBorder="0"
+        scrolling="no"
+        marginHeight="0"
+        marginWidth="0"
+        src="https://maps.google.com/maps?width=850&amp;height=600&amp;hl=en&amp;q=sahil%20embro&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        width="850"
+        height="600"
+        allowFullScreen=""
+      ></iframe>
           </div>
           <style>
             {`
